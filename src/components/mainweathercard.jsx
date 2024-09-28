@@ -1,3 +1,4 @@
+
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import WbSunnyIcon from '@mui/icons-material/WbSunny'; // Hot weather icon

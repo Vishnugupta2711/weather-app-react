@@ -2,7 +2,7 @@ import AirIcon from "@mui/icons-material/Air";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
 import InvertColorsIcon from "@mui/icons-material/InvertColors";
-import HighlightBox from "../../src/components/Highlightbox";
+import HighlightBox from "./Highlightbox";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CompressIcon from '@mui/icons-material/Compress';
 import DeviceThermostatIcon from '@mui/icons-material/DeviceThermostat';
