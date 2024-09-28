@@ -1,0 +1,38 @@
+/* WeatherDashboard.css */
+
+.weather-dashboard {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .weather-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .weather-left {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .weather-right {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .forecast-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
