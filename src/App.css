@@ -1,0 +1,36 @@
+.weather-dashboard {
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/path/to/your/background-image.jpg'); /* Set the path to your image */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height of the dashboard */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .weather-dashboard::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure overlay is above the background */
+  }
+  
+  .weather-dashboard > * {
+    position: relative; /* Ensure content is above the overlay */
+    z-index: 2; /* Ensure content is above the overlay */
+  }
+  
+  /* Add styles for the error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

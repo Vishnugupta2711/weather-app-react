@@ -28,7 +28,7 @@ const WeatherDashboard = () => {
   };
 
   const fetchWeatherData = (city) => {
-    const API_KEY = "c0876f72901a47e3be056724ffecad0e"; // Use the same API key as above
+    const API_KEY = "c0876f72901a47e3be056724ffecad0e"; // Replace with your OpenWeatherMap API key
     setIsLoading(true); // Start loading
     axios
       .get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`)
